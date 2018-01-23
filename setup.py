@@ -2,14 +2,14 @@ from setuptools import setup
 
 setup(
     name='mercedes-api',
-    version='0.0.2',
+    version='0.0.3',
     description='Retrieve info from mercedes api.',
     url='https://github.com/RiRomain/python-mercedes-api/',
     license='MIT',
     author='RiTomain',
     author_email='romain.rinie@googlemail.com',
     packages=['mercedesapi'],
-    install_requires=['requests'],
+    install_requires=['requests', 'httpretty', 'sure', 'six'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',

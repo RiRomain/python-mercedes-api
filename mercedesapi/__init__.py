@@ -105,7 +105,7 @@ class MercedesApi(object):
 
     def _retrieve_json_at_url(self, url):
         try:
-            _LOGGER.warning("Connect to URL " + str(url))
+            _LOGGER.info("Connect to URL " + str(url))
             res = requests.get(url,
                                headers=self._auth_header,
                                proxies=self._proxies,
@@ -122,7 +122,7 @@ class MercedesApi(object):
 
     def _post_json_command(self, url, command):
         try:
-            _LOGGER.warning("Connect to URL " + str(url))
+            _LOGGER.info("Connect to URL " + str(url))
             res = requests.post(url,
                                 json=command,
                                 headers=self._auth_header,
