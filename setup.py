@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='mercedes-api',
-    version='0.0.1',
+    version='0.0.2',
     description='Retrieve info from mercedes api.',
     url='https://github.com/RiRomain/python-mercedes-api/',
     license='MIT',
